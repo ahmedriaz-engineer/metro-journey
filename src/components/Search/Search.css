@@ -1,0 +1,31 @@
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.map{
+    width: 600px;
+}
+.search-opt{
+    height: 350px;
+    width: 30%;
+}
+.result-ticket{
+    margin: 10px;
+    background-color: whitesmoke;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.result-location{
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+#search-result{
+    display: none;
+}
